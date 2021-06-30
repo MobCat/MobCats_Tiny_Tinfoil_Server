@@ -24,7 +24,7 @@ Python 3.8 or higher.<br>
 If your not using the windows pre pack, then a HTML web server like apache or windows IIS
 
 ## Noob friendly windows setup ##
-1. Download the WindowsPrePack(BetaRC1).zip from the Releases page.<br>
+1. Download the [WindowsPrePack.BetaRC1.zip](https://github.com/MobCat/MobCat-s-Tiny-Tinfoil-Server/releases/download/BetaRC1/WindowsPrePack.BetaRC1.zip) from the Releases page.<br>
 2. Unpack the hole `_Tinfoil` folder to the root of one of your drives. So you have a file path like<br>
 `C:\_Tinfoil\Apache_start.bat` or `E:\_Tinfoil\Apache_start.bat`<br>
 `C:\_Tinfoil\htdocs\files\` or `E:\_Tinfoil\htdocs\files\`<br>
