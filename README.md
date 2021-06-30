@@ -11,7 +11,7 @@ Well Installing games off the SD card at the very least requires you to have dou
 Installing games over direct USB works but only for windows and not for all switch files as far as I know.<br>
 Installing games from USB C OTG is ok but you first have to copy the file to a USB drive then install off the drive.<br>
 Using a public server like HBG is fine however, very slow and you are beholden to their rules and what they host.<br>
-So setting up your own local LAN tinfoil server is not as fast as installing from USB or SD card however it's way faster then a public server and you can host whatever you want, whenever you want, from whatever computer you want providing it can host a websight. So any computer including a raspberry pi if you have a big enough SD card to hold your games but I would still recommend a computer connected to ethernet for your server but if you only have a pi on WiFi then sure why not I guess.<br>
+So setting up your own local LAN tinfoil server is not as fast as installing from USB or SD card however it's way faster then a public server and you can host whatever you want, whenever you want, from whatever computer you want providing it can host a basic HTML website. So any computer including a raspberry pi if you have a big enough SD card to hold your games but I would still recommend a computer connected to ethernet for your server but if you only have a pi on WiFi then sure why not I guess.<br>
 I'm not saying this method of installing switch games is the best, just it works best for me.<br>
 
 ## What is Tinfoil
