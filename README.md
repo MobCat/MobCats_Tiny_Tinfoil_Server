@@ -47,7 +47,7 @@ You can also press any key on the `UpdateHTML.bat` window that's still open as w
 We only need to keep the `Apache_start.bat` open for the server to work.<br>
 If you are finished with the server and want to shut it down then run `Apache_stop.bat` and this will auto shutdown the server.
 
-# Updating the windows server with new switch packages#
+# Updating the windows server with new switch packages #
 If you want to add, edit, delete, etc any file on the server simply, make the changes to the files in the `_Tinfoil\htdocs\files\` folder, then run the `UpdateHTML.bat` again to update the index.htm file. Then press any key to close it as we already know our server IP.<br>
 This can be done while apache is still running, it doesn't matter. As long as your not trying to install files at the same time you are trying to update the index.htm.
 
