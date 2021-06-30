@@ -1,4 +1,4 @@
-# MobCat-s-Tiny-Tinfoil-Server
+# MobCat's Tiny Tinfoil Server
 Makes setting up a private LAN tinfoil server easy.
 
 ----
@@ -63,4 +63,4 @@ This can be done while apache is still running, it doesn't matter. As long as yo
 ## Extra notes ##
 The python scrip is a dumpster fire, it needs to be remade but for now "it just works".<br>
 I may have to do more URL encoding to work with more web server setups. For now it works but If it doesn't then ill have to import a library to do URL encoding. I hate librarys but yeah...<br>
-**If you are running the windows pre pack** -**!DO NOT CONNECT IT TO THE INTERNET OR ANY NETWORK OUTSIDE OF YOUR PRIVATE LAN!**- I'm using a very old version of Apache for this pre pack, It was built to be as simple and noob friendly as possible. Not secure or upto date, just simple to use and setup.
+**If you are running the windows pre pack** - ![#f03c15] `**!DO NOT CONNECT IT TO THE INTERNET OR ANY NETWORK OUTSIDE OF YOUR PRIVATE LAN!**` I'm using a very old version of Apache for this pre pack, It was built to be as simple and noob friendly as possible. Not secure or upto date, just simple to use and setup.
