@@ -55,7 +55,7 @@ This can be done while apache is still running, it doesn't matter. As long as yo
 1. Download the `UpdateHTML.py` from this github and place it in your `htdocs` or `www` folder depending on the type of server you are using.
 2. Make a new `files` folder in your `htdocs` or `www` folder and copy all your switch package files into there.
 3. If your running https then you want to edit `urlHead` on line 13 in `UpdateHTML.py`
-4. If you are using an exturnal IP address for your server, edit `urlHead` on line 13 of `UpdateHTML.py` to something like
+4. If you are using an exturnal IP address for your server, edit `urlHead` on line 13 of `UpdateHTML.py` to something like<br>
 `urlHead  = 'https://13.237.44.5/'` or `urlHead  = 'http://mykickassshop.com/'` 
 6. If you want to edit the MotD then you can do that on line 74 of `UpdateHTML.py`
 7. Once you have made all the edits you want, run the `UpdateHTML.py` to generate your index.htm for the server, then goto step 6. in the Noob friendly windows setup guide above this to setup your switch with the server you just made.
