@@ -42,7 +42,7 @@ print("""
 """)
 
 print("\nUpdating index.html for server...")
-txt = open("index.htm", "w") # wright a hole new file, overwrite anything that exists.
+txt = open("index.htm", "w", encoding='utf-8') # wright a hole new file, overwrite anything that exists.
 
 # Dumb json things / hacks.
 txt.write('{\n')
@@ -77,10 +77,10 @@ txt.close()
 
 print("Finalizeing file...")
 # this is even more dumb but idk how to json
-txt = open("index.htm", "r") # read the file we just made to get line count.
+txt = open("index.htm", "r", encoding='utf-8') # read the file we just made to get line count.
 lastEdit = txt.readlines()
 lastEdit[-4] = '        }\n' # Correct our last }, to a }
-txt = open("index.htm", "w") # Now we know where we want to edit, overwright the hole line.
+txt = open("index.htm", "w", encoding='utf-8') # Now we know where we want to edit, overwright the hole line.
 txt.writelines(lastEdit)
 txt.close()
 
