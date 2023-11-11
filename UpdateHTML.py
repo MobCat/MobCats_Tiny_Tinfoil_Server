@@ -6,6 +6,7 @@
 
 import os # Import lib for file handleing. In our case reading and wrighting files.
 import socket # Import web sockets lib for getting the system IP.
+from datetime import datetime
 
 # Variables for getting and setting local IP
 hostname = socket.gethostname()
@@ -71,7 +72,9 @@ sizeCountGB = round(sizeCountGB,2) # Otherwise it shows the value to the 9th dec
 txt.write('    ],\n')
 # This is the pop up message of the day you get when you first open tinfoil and when you open the server in the file browser
 # It can be edited to anything you want, but that's up to you
-txt.write(f'    "success": "Welcome to MobCat\'s mini private tinfoil server.\\nThis is Still a WiP and only ment for LAN use.\\n\\nThis server has {fileCount} files totaling {sizeCountGB} GB"\n')
+txt.write(f'    "success": "Welcome to MobCat\'s mini private tinfoil server.\\nThis is Still a WiP and only ment for LAN use.\\n\\nThis server has {fileCount} files totaling {sizeCountGB} GB\\n')
+timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+txt.write(f'Last Updated: {timestamp}"\n')
 txt.write('}\n')
 txt.close()
 
